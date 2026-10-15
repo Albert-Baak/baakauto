@@ -138,6 +138,8 @@ nav.main a:hover { color: var(--blue); }
 .info dl { display: grid; grid-template-columns: auto 1fr; gap: 8px 18px; margin: 0; }
 .info dt { font-weight: 700; }
 .info dd { margin: 0; color: var(--muted); }
+.info dd a { color: var(--blue); font-weight: 600; text-decoration: none; }
+.info dd a:hover { text-decoration: underline; }
 .form { display: grid; gap: 14px; background: var(--white); border: 1px solid var(--line); border-radius: 12px; padding: clamp(20px, 3vw, 30px); }
 .row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; }
 @media (max-width: 520px) { .row { grid-template-columns: minmax(0, 1fr); } }
@@ -252,7 +254,7 @@ footer a:hover { text-decoration: underline; }
       <div class="text">
         <span class="label">Innbytte</span>
         <h2>Bytt inn din gamle bil</h2>
-        <p>Vi tar gjerne bilen din i innbytte når du kjøper bil hos oss. Verdien trekkes rett fra prisen, og vi ordner omregistrering og eventuelt lån som står på bilen.</p><p>Du finner oss i Hinderveien 7 i Sandefjord, og vi henter deg gjerne på Torp flyplass eller Sandefjord stasjon.</p>
+        <p>Vi tar gjerne bilen din i innbytte når du kjøper bil hos oss. Verdien trekkes rett fra prisen, og vi ordner omregistreringen.</p><p>Du finner oss i Hinderveien 7 i Sandefjord, og vi henter deg gjerne på Torp flyplass eller Sandefjord stasjon.</p>
         <p>Send oss registreringsnummer og kilometerstand, så gir vi deg et innbyttetilbud.</p>
         <div><a class="btn btn-blue" href="#kontakt" data-topic="Innbytte">Få innbyttetilbud</a></div>
       </div>
@@ -299,8 +301,8 @@ footer a:hover { text-decoration: underline; }
         <h2>Ta gjerne kontakt for en hyggelig bilprat</h2>
         <dl>
           <dt>Adresse</dt><dd>Hinderveien 7, 3223 Sandefjord</dd>
-          <dt>Telefon</dt><dd>47 68 03 95</dd>
-          <dt>E-post</dt><dd>albert@baakauto.no</dd>
+          <dt>Telefon</dt><dd><a href="tel:+4747680395">47 68 03 95</a></dd>
+          <dt>E-post</dt><dd><a href="mailto:albert@baakauto.no">albert@baakauto.no</a></dd>
         </dl>
         <div><a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&query=Hinderveien+7,+3223+Sandefjord" target="_blank" rel="noopener">Vis i Google Maps</a></div>
       </div>
@@ -335,7 +337,7 @@ footer a:hover { text-decoration: underline; }
     <div class="cols">
       <div>
         <h3>Baak Auto AS</h3>
-        <ul><li>Hinderveien 7, 3223 Sandefjord</li><li>Tlf: 47 68 03 95</li><li>albert@baakauto.no</li></ul>
+        <ul><li>Hinderveien 7, 3223 Sandefjord</li><li>Tlf: <a href="tel:+4747680395">47 68 03 95</a></li><li><a href="mailto:albert@baakauto.no">albert@baakauto.no</a></li></ul>
       </div>
       <div>
         <h3>Åpningstider</h3>
